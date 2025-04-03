@@ -1,59 +1,62 @@
-# חיים דנינו זיו - סוכנות לביטוח
+# חיים דנינו ביטוח - אתר אינטרנט
 
-אתר תדמית מקצועי עבור סוכנות הביטוח של חיים דנינו זיו, המתמחה בביטוח פנסיוני ופיננסי.
+אתר אינטרנט מודרני עבור סוכנות הביטוח של חיים דנינו, המאפשר ללקוחות לקבל מידע על שירותי הביטוח, ליצור קשר, ולנהל את הפוליסות שלהם.
+
+## תכונות עיקריות
+
+- 🏠 דף בית עם מידע על השירותים
+- 📞 יצירת קשר
+- 🔒 מערכת התחברות למשתמשים
+- 📊 לוח בקרה למשתמשים
+- 📱 עיצוב רספונסיבי
+- 🌐 תמיכה מלאה בעברית
 
 ## טכנולוגיות
 
 - Next.js 14
+- React
 - TypeScript
 - Tailwind CSS
-- Calendly Integration
-- Firebase (for form handling)
+- Firebase
+- NextAuth.js
 
 ## התקנה
 
-1. התקן את התלויות:
+1. שכפל את המאגר:
+```bash
+git clone https://github.com/yourusername/website.git
+cd website
+```
+
+2. התקן את התלויות:
 ```bash
 npm install
 ```
 
-2. הפעל את שרת הפיתוח:
+3. צור קובץ `.env.local` על בסיס `.env.local.example`:
+```bash
+cp .env.local.example .env.local
+```
+
+4. הגדר את משתני הסביבה בקובץ `.env.local`
+
+5. הפעל את השרת המקומי:
 ```bash
 npm run dev
 ```
 
-3. פתח את הדפדפן בכתובת [http://localhost:3000](http://localhost:3000)
-
-## תכונות
-
-- עיצוב רספונסיבי מלא
-- תמיכה מלאה בעברית (RTL)
-- אינטגרציה עם Calendly לקביעת פגישות
-- טופס יצירת קשר מאובטח
-- נגישות מלאה (תקן AA)
-- SEO מותאם
-
 ## פיתוח
 
-האתר נבנה עם Next.js 14 ומשתמש ב-Tailwind CSS לעיצוב. הוא כולל:
+- `npm run dev` - הפעל שרת פיתוח
+- `npm run build` - בנה את האפליקציה
+- `npm run start` - הפעל את הגרסה המבוססת
+- `npm run lint` - בדוק את הקוד
+- `npm run test` - הרץ בדיקות
 
-- דפים סטטיים
-- קומפוננטות מותאמות אישית
-- טיפול בטפסים
-- אינטגרציה עם שירותים חיצוניים
+## תרומה
 
-## נגישות
+אנחנו תמיד מחפשים תרומות! אם יש לך הצעות לשיפורים או תיקוני באגים, אנא פתח issue או שלח pull request.
 
-האתר עומד בתקן נגישות AA וכולל:
+## רישיון
 
-- תמיכה בקוראי מסך
-- ניווט מקלדת
-- ניגודיות גבוהה
-- אפשרות להגדלת טקסט
-- תיאורי תמונות מלאים
-
-## קרדיטים
-
-- עיצוב: חיים דנינו זיו
-- פיתוח: חיים דנינו זיו
-- תמונות: Unsplash 
+MIT 
